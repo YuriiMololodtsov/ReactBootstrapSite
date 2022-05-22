@@ -12,17 +12,17 @@ export default function Header() {
   return (
     <>
       <Router>
-        <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="md" bg="primary" variant="dark">
           <Container>
             <Navbar.Brand href="/">
-              <img
+              {/* <img
                 src={logo}
                 height="30"
                 width="30"
                 className="d-inline-block align-top"
                 alt="Logo"
-              />{' '}
-              My site
+              />{' '} */}
+              StreetArt
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
